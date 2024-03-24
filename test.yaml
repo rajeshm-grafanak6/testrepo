@@ -3,22 +3,22 @@
 #------------------------------------------------------------------------------
 # YAML Aliases to simplify maintenance
 
-anchorLinks:
-  - link: &grafana-home
-      url: "https://grafana.com/"
-      params: "time"
+# anchorLinks:
+#   - link: &grafana-home
+#       url: "https://grafana.com/"
+#       params: "time"
 
 #------------------------------------------------------------------------------
 # Panel Config
 
 cellIdPreamble: "cell-"
 cells: 
-  drawio:
-    link:
-      url: "https://app.diagrams.net/?p=svgdata"
-  docs:
-    link:
-      url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
+  # drawio:
+  #   link:
+  #     url: "https://app.diagrams.net/?p=svgdata"
+  # docs:
+  #   link:
+  #     url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
   boxAID:
     dataRef: "test-data-large-sin"
     label:
