@@ -13,6 +13,9 @@ anchorLinks:
 
 cellIdPreamble: "cell-"
 cells: 
+  drawio:
+    link:
+      url: "https://app.diagrams.net/?p=svgdata"
   boxAID:
     dataRef: "test-data-large-sin"
     label:
@@ -25,9 +28,8 @@ cells:
         - {color: "green", level: 0}
         - {color: "orange", level: 500}
         - {color: "red", level: 1000}
-    link: *grafana-home
   boxBID:
-    dataRef: "test-data-small-cos"
+    dataRef: "test-data-large-sin"
     label:
       separator: "cr"
       units: "none"
@@ -35,5 +37,6 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds:
-        - {color: "#888888", level: 0}
-        - {color: "light-blue", level: 100}
+        - {color: "green", level: 0}
+        - {color: "orange", level: 500}
+        - {color: "red", level: 1000}
