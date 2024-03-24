@@ -25,6 +25,17 @@ cells:
         - {color: "green", level: 0}
         - {color: "orange", level: 500}
         - {color: "red", level: 1000}
+  arrow:
+    dataRef: "test-data-small-sin"
+    label:
+      separator: "colon"
+      units: "pps"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "orange", level: 100}
   boxBID:
     dataRef: "test-data-large-sin"
     label:
