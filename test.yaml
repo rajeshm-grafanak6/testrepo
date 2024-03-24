@@ -13,12 +13,6 @@ anchorLinks:
 
 cellIdPreamble: "cell-"
 cells: 
-  drawio:
-    link:
-      url: "https://app.diagrams.net/?p=svgdata"
-  docs:
-    link:
-      url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
   boxAID:
     dataRef: "test-data-large-sin"
     label:
